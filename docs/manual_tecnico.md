@@ -1,5 +1,5 @@
-# Manual Técnico - Gestor de Clientes (v1.0)
+# Manual Técnico - Gestor de Clientes (v1.1)
 
-## Arquitectura
-- `src/index.html`: Formulario de captura.
-- `src/script.js`: Lógica principal del sistema.
+## Validación de Teléfono (Ticket #101)
+Se implementó la función `validarTelefono(tel)` en `src/script.js`.
+Utiliza la expresión regular `/^[0-9]+$/` para validar que la cadena contenga exclusivamente uno o más dígitos.
