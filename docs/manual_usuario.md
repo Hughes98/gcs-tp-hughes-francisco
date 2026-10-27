@@ -1,4 +1,4 @@
-# Manual de Usuario - Gestor de Clientes (v1.0)
+# Manual de Usuario - Gestor de Clientes (v1.1)
 
 ## Registro de Clientes
-El usuario ingresa el nombre y teléfono del cliente mediante el formulario web.
+El campo **Teléfono** requiere únicamente caracteres numéricos (0-9). Si se ingresan letras o símbolos, el sistema rechazará la entrada mostrando una alerta.
